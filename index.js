@@ -25,20 +25,20 @@ app.post('/chat', async (req, res) => {
   }
 
   try {
-  const aiResponse = await ai.models.generateContent({
-    model: 'gemini-2.5-flash',
-    contents: [{ role: "user", parts: [{ text: prompt }] }]
-  });
+    const aiResponse = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: [{ role: "user", parts: [{ text: prompt }] }],
+    });
 
-  console.log(aiResponse)
+    // console.log(aiResponse)
 
-  const output = aiResponse?.candidates?.[0]?.content?.parts?.[0]?.text; // <<-- safest way
+    const output = aiResponse?.candidates?.[0]?.content?.parts?.[0]?.text; // <<-- safest way
 
-  res.status(200).json({
-    success: true,
-    data: output,
-    message: "Berhasil ditanggapi oleh Google Gemini Flash!"
-  });
+    res.status(200).json({
+      success: true,
+      data: output,
+      message: "Berhasil ditanggapi oleh Google Gemini Flash!",
+    });
   } catch (e) {
     console.error(e);
     res.status(500).json({
