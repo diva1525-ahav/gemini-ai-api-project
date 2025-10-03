@@ -1,5 +1,7 @@
 # Gemini AI API Project
 
+By: Diva Angeline S. I. S
+
 Gemini LLM Project built with Node.js.
 
 ## API
@@ -18,3 +20,4 @@ Body example:
 ## Screenshoot
 
 ![Example output](/asset/example.png)
+
