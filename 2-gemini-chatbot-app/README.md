@@ -1,6 +1,6 @@
 # Gemini Chatbot App
 
-Fullstack Gemini LLM Project built with Node.js
+Fullstack Gemini LLM Project built with Node.js 
 
 ## API
 
