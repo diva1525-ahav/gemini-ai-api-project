@@ -1,0 +1,24 @@
+{
+  "name": "gemini-chatbot-app",
+  "version": "1.0.0",
+  "description": "Gemini AI Chatbot built with Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "gemini",
+    "api",
+    "llm"
+  ],
+  "author": "diva1525-ahav",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
