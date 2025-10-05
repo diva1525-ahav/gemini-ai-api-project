@@ -17,5 +17,5 @@ Body example:
 
 ## Screenshoot
 
-![Example output](/asset/example.png)
+![Example output](/2-gemini-chatbot-app/asset/chatbot-demo.png)
 

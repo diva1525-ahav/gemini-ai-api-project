@@ -17,5 +17,5 @@ Body example:
 
 ## Screenshoot
 
-![Example output](/asset/example.png)
+![Example output](/1-gemini-express-api/asset/example.png)
 
