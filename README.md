@@ -2,7 +2,7 @@
 
 By: Diva Angeline S. I. S
 
-A compilation of Gemini AI projects
+A compilation of Gemini AI Chatbot projects
 
 ## List of Projects
 
