@@ -1,6 +1,6 @@
 # Gemini AI API Project
 
-Gemini LLM Project built with Node.js.
+Gemini LLM Project built with Node.js. 
 
 ## API
 
