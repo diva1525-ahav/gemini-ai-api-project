@@ -1,6 +1,6 @@
 # Gemini AI API Project
 
-By: Diva Angeline S. I. S
+By: Diva Angeline S. I. S & Ye
 
 A compilation of Gemini AI Chatbot projects
 
